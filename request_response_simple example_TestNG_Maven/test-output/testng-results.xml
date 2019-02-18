@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="840" started-at="2019-01-10T12:37:34Z" finished-at="2019-01-10T12:37:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="840" started-at="2019-01-10T12:37:34Z" finished-at="2019-01-10T12:37:35Z">
+      <class name="zoomapaHttpClientTest.ZoomapaHttpClientTest">
+        <test-method status="PASS" signature="setupHttpClient()[pri:0, instance:zoomapaHttpClientTest.ZoomapaHttpClientTest@675d3402]" name="setupHttpClient" is-config="true" duration-ms="331" started-at="2019-01-10T12:37:34Z" finished-at="2019-01-10T12:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupHttpClient -->
+        <test-method status="PASS" signature="zoomapaHttpClientTest()[pri:0, instance:zoomapaHttpClientTest.ZoomapaHttpClientTest@675d3402]" name="zoomapaHttpClientTest" duration-ms="487" started-at="2019-01-10T12:37:35Z" finished-at="2019-01-10T12:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zoomapaHttpClientTest -->
+      </class> <!-- zoomapaHttpClientTest.ZoomapaHttpClientTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

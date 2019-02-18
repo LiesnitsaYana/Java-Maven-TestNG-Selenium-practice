@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test1" verbose="5" configfailurepolicy="continue">
+	<test name="Test1">
+	    <parameter name="login" value="forsometests555@gmail.com" />
+	    <parameter name="password" value="test$12345" />
+	    <parameter name="browserName" value="chrome"/>
+	    <parameter name="title1" value="Hello"/>
+	    <parameter name="title2" value="djgfsdjf"/>
+	    <classes>
+			<class name="selenium.homework9.homework9.SigninLoginPage"/>
+		</classes>
+	</test>
+</suite>

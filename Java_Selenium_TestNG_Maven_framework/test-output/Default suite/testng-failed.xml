@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="password" value="test$12345"/>
+  <parameter name="title1" value="Hello"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="title2" value="djgfsdjf"/>
+  <parameter name="login" value="forsometests555@gmail.com"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestNG_HomeWork9.HomeWork9.GmailTests">
+        <methods>
+          <include name="goToSigninLoginPage"/>
+          <include name="goToInboxPage"/>
+          <include name="findTheLetterByTittleTrue"/>
+          <include name="findTheLetterByInvalidTitle"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNG_HomeWork9.HomeWork9.GmailTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

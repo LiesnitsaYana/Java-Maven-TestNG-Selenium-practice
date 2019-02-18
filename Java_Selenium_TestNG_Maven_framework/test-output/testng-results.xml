@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="497760" started-at="2019-02-02T08:39:20Z" finished-at="2019-02-02T08:47:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="497760" started-at="2019-02-02T08:39:20Z" finished-at="2019-02-02T08:47:37Z">
+      <class name="TestNG_HomeWork9.HomeWork9.GmailTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestNG_HomeWork9.HomeWork9.GmailTests@612fc6eb]" name="setup" is-config="true" duration-ms="6543" started-at="2019-02-02T08:39:13Z" finished-at="2019-02-02T08:39:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="goToSigninLoginPage(java.lang.String)[pri:0, instance:TestNG_HomeWork9.HomeWork9.GmailTests@612fc6eb]" name="goToSigninLoginPage" duration-ms="998" started-at="2019-02-02T08:39:20Z" finished-at="2019-02-02T08:39:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[forsometests555@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSigninLoginPage -->
+        <test-method status="PASS" signature="goToInboxPage(java.lang.String)[pri:0, instance:TestNG_HomeWork9.HomeWork9.GmailTests@612fc6eb]" name="goToInboxPage" duration-ms="90405" started-at="2019-02-02T08:39:21Z" depends-on-methods="TestNG_HomeWork9.HomeWork9.GmailTests.goToSigninLoginPage" finished-at="2019-02-02T08:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test$12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToInboxPage -->
+        <test-method status="PASS" signature="findTheLetterByTittleTrue(java.lang.String)[pri:0, instance:TestNG_HomeWork9.HomeWork9.GmailTests@612fc6eb]" name="findTheLetterByTittleTrue" duration-ms="135775" started-at="2019-02-02T08:40:51Z" depends-on-methods="TestNG_HomeWork9.HomeWork9.GmailTests.goToInboxPage" finished-at="2019-02-02T08:43:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTheLetterByTittleTrue -->
+        <test-method status="PASS" signature="findTheLetterByInvalidTitle(java.lang.String)[pri:0, instance:TestNG_HomeWork9.HomeWork9.GmailTests@612fc6eb]" name="findTheLetterByInvalidTitle" duration-ms="270564" started-at="2019-02-02T08:43:07Z" depends-on-methods="TestNG_HomeWork9.HomeWork9.GmailTests.findTheLetterByTittleTrue" finished-at="2019-02-02T08:47:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[djgfsdjf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTheLetterByInvalidTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_HomeWork9.HomeWork9.GmailTests@612fc6eb]" name="tearDown" is-config="true" duration-ms="1823" started-at="2019-02-02T08:47:37Z" finished-at="2019-02-02T08:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_HomeWork9.HomeWork9.GmailTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,58 @@
+[
+	{
+		"id": 1,
+		"name": "Sony Alpha a9",
+		"type": "mirrorless",
+		"sensor": "full frame",
+		"lenses": "Sony E",
+		"display": "inclined"
+	},
+	{
+		"id": 2,
+		"name": "Nikon D850",
+		"type": "DSLR",
+		"sensor": "full frame",
+		"lenses": "Nikon F",
+		"display": "inclined"
+	},
+	{
+		"id": 3,
+		"name": "Sony Alpha a7R III",
+		"type": "mirrorless",
+		"sensor": "full frame",
+		"lenses": "Sony",
+		"display": "inclined"
+	},
+	{
+		"id": 4,
+		"name": "Canon EOS 5D Mark IV",
+		"type": "DSLR",
+		"sensor": "full frame",
+		"lenses": "Canon EF",
+		"display": "fixed"
+	},
+	{
+		"id": 5,
+		"name": "Nikon D750",
+		"type": "DSLR",
+		"sensor": "full frame",
+		"lenses": "Nikon F",
+		"display": "inclined"
+	},
+	{
+		"id": 6,
+		"name": "Canon EOS 6D Mark II",
+		"type": "DSLR",
+		"sensor": "full frame",
+		"lenses": "Canon EF",
+		"display": "turning"
+	},
+	{
+		"id": 7,
+		"name": "Fujifilm X-T2",
+		"type": "mirrorless ",
+		"sensor": "APS-C",
+		"lenses": "Fujifilm X",
+		"display": "inclined"
+	}
+]

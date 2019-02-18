@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test1" verbose="5" configfailurepolicy="continue">
+	<test name="Test1">
+	    <parameter name="param1" value="15.0" />
+	    <parameter name="param2" value="3.0" />
+	    <parameter name="param3" value="0.0" />
+		<classes>
+			<class name="calculatorTests.CalculatorTests"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,64 @@
+{
+	"musicAlbum": [
+		{
+			"groupname": "twenty one pilots",
+			"songname": "Heathens",
+			"songduration": 3.27
+		},
+		{
+			"groupname": "twenty one pilots",
+			"songname": "Car Radio",
+			"songduration": 4.40
+		},
+		{
+			"groupname": "Linkin Park",
+			"songname": "Numb",
+			"songduration": 3.06
+		},
+		{
+			"groupname": "Lana Del Rey",
+			"songname": "Summertime sadness",
+			"songduration": 3.56
+		},
+		{
+			"groupname": "Imagine Dragons",
+			"songname": "Thunder",
+			"songduration": 3.24
+		},
+		{
+			"groupname": "Three Days Grace",
+			"songname": "Outsider",
+			"songduration": 2.43
+		},
+		{
+			"groupname": "ONUKA",
+			"songname": "When I Met You",
+			"songduration": 4.04
+		},
+		{
+			"groupname": "Foster The People",
+			"songname": "Best Friend",
+			"songduration": 4.25
+		},
+		{
+			"groupname": "Massive Attack",
+			"songname": "Angel",
+			"songduration": 6.18
+		},
+		{
+			"groupname": "Florence + The Machine",
+			"songname": "Big God",
+			"songduration": 4.28
+		},
+		{
+			"groupname": "Die antwoord",
+			"songname": "banana brain",
+			"songduration": 7.12
+		},
+		{
+			"groupname": "Coldplay",
+			"songname": "Hypnotised",
+			"songduration": 5.54
+		}
+	]
+}

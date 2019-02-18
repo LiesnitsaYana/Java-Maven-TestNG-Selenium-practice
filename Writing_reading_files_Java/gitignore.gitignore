@@ -1,0 +1,16 @@
+# Global GIT ignored files
+
+.DS_Store
+
+.settings
+
+.bin
+.class
+
+.classpath
+
+.project
+
+.target
+
+.test-output
