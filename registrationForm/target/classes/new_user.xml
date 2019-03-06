@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite1" verbose="5" configfailurepolicy="continue">
+ <test name="Test1">
+     <parameter name="invalidFirstName" value="Ivan@@@" />
+     <parameter name="validFirstName" value="Ivan" />
+     <parameter name="invalidLastName" value="Petrenko@@@" />
+     <parameter name="validLastName" value="Petrenko" />
+     <parameter name="browserName" value="chrome"/>
+     <classes>
+   <class name="newUser.registrationForm.RegistrationFormTests"/> 
+  </classes>
+ </test>
+</suite>
